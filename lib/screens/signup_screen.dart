@@ -34,7 +34,7 @@ class SignupScreen extends StatefulWidget {
                   SizedBox(height: 28.42,),
                   Center(child: Image.asset("assets/images/carrot.png")),
                   SizedBox(height: 100.2,),
-                  Text("Sign in",style: TextStyle(fontSize: 26,
+                  Text("Sign Up",style: TextStyle(fontSize: 26,
                   fontWeight: FontWeight.w600,
                   color: Color(0xff181725))
                   ),
