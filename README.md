@@ -2,7 +2,9 @@
 
 | Login Screen | Signup Screen |
 |:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/b9f83347-255e-4487-8c0e-41d1c6058b53" width="300" alt="Login Screen"> | <img src="https://github.com/user-attachments/assets/c7309059-37bf-463f-adbe-cffae0e12c3" width="300" alt="Signup Screen"> |
+| <img width="452" height="992" alt="Screenshot 2026-08-16 222805" src="https://github.com/user-attachments/assets/3d83672e-42af-4175-9aba-b63ed5e7dfb1" />
+ | <img width="463" height="986" alt="Screenshot 2026-08-16 223007" src="https://github.com/user-attachments/assets/c09cd697-5d18-4a7a-97b7-67811f794426" />
+ |
 
 A new Flutter project.
 
