@@ -3,7 +3,8 @@
 
 
 
- import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'package:gorcey_app/screens/bottom_nev_bar_screen.dart';
 import 'package:gorcey_app/screens/login_screen.dart';
 import 'package:gorcey_app/screens/signup_screen.dart';
 
@@ -13,7 +14,7 @@ class GorceyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SignupScreen(),
+      home:BottomNevBarScreen (),
     );
   }
 }
