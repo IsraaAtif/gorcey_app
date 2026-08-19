@@ -1,8 +1,9 @@
 # gorcey_app
 
-| Login Screen | Signup Screen |
-|:---:|:---:|
-| <img width="452" height="992" alt="Screenshot 2026-08-16 222805" src="https://github.com/user-attachments/assets/3d83672e-42af-4175-9aba-b63ed5e7dfb1" />|<img width="457" height="1006" alt="Screenshot 2026-08-16 225343" src="https://github.com/user-attachments/assets/aa74cc39-ed08-4c28-8187-c5d0b831d433" />
+| Login Screen | Sign Up Screen | Shop Screen |
+| :---: | :---: | :---: |
+| <img width="452" height="992" alt="Screenshot 2026-08-16 222805" src="https://github.com/user-attachments/assets/3d83672e-42af-4175-9aba-b63ed5e7dfb1" />|<img width="457" height="1006" alt="Screenshot 2026-08-16 225343" src="https://github.com/user-attachments/assets/aa74cc39-ed08-4c28-8187-c5d0b831d433" />|<img width="414" height="903" alt="Screenshot 2026-08-18 212100" src="https://github.com/user-attachments/assets/8380c9d4-2795-4519-907a-60c80eeb553c" />
+
 
  |
 
@@ -23,5 +24,6 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-##About Authentication Screens
-Implemented Login & Sign Up screens with form validation, password toggle, and smooth scrolling.
+## About Application Screens
+
+Implemented Login, Sign Up, and Shop screens featuring form validation, password visibility toggle, custom bottom navigation bar, search bar, and smooth scrolling layout.
