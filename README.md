@@ -25,6 +25,15 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-## About Application Screens
+## about Application Screens & Features
 
-Implemented Login, Sign Up, and Shop screens featuring form validation, password visibility toggle, custom bottom navigation bar, search bar, and smooth scrolling layout.
+ Authentication Screens (Login & Sign Up)
+ - Custom UI & Branding: Clean layout featuring custom app logo and themed green buttons.
+ - Form Validation: Input handling for email, username, and password fields.
+ - Interactive UI: Password visibility toggle (Show/Hide password) and navigation links between screens.
+
+  Shop Screen
+  - Location & Search: Top bar with user location header and an intuitive search field.
+  - Promo Banner Slider: Dynamic offer banners with page indicator dots.
+  -Product Showcase: Custom product cards displaying image, item details, price, and interactive "Add to Cart" button.
+  -Navigation: Custom Bottom Navigation Bar for smooth app-wide navigation.
