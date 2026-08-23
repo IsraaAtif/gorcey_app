@@ -1,12 +1,8 @@
 
 
-
-
-
 import 'package:flutter/material.dart';
 import 'package:gorcey_app/widgets/login_header.dart';
-import 'package:gorcey_app/widgets/email_field.dart';
-import 'package:gorcey_app/widgets/password_field.dart';
+import 'package:gorcey_app/widgets/custom_text_field.dart';
 import 'package:gorcey_app/widgets/forgot_password.dart';
 import 'package:gorcey_app/widgets/primary_button.dart';
 import 'package:gorcey_app/widgets/auth_switch_row.dart';
@@ -49,19 +45,21 @@ class _LoginScreenState extends State<LoginScreen> {
                 children: [
                   const LoginHeader(),
 
-                  EmailField(
+                  CustomTextField(
+                    labelText: "Email",
                     controller: _emailController,
+                    keyboardType: TextInputType.emailAddress,
                     validator: Validators.validateEmail,
                   ),
                   const SizedBox(height: 30),
 
-                  PasswordField(
+                  CustomTextField(
+                    labelText: "Password",
                     controller: _passwordController,
+                    isPassword: true,
                     validator: Validators.validatePassword,
+                    bottomWidget: const ForgotPasswordText(),
                   ),
-                  const SizedBox(height: 20),
-
-                  const ForgotPasswordText(),
                   const SizedBox(height: 30),
 
                   PrimaryButton(text: "Log In", onTap: _handleLogin),
@@ -80,5 +78,4 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
     );
   }
-
 }

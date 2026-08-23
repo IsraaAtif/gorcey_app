@@ -1,13 +1,8 @@
 
 
-
-
-
 import 'package:flutter/material.dart';
 import 'package:gorcey_app/widgets/signup_header.dart';
-import 'package:gorcey_app/widgets/username_field.dart';
-import 'package:gorcey_app/widgets/email_field.dart';
-import 'package:gorcey_app/widgets/password_field.dart';
+import 'package:gorcey_app/widgets/custom_text_field.dart';
 import 'package:gorcey_app/widgets/terms_text.dart';
 import 'package:gorcey_app/widgets/primary_button.dart';
 import 'package:gorcey_app/widgets/auth_switch_row.dart';
@@ -51,25 +46,28 @@ class _SignupScreenState extends State<SignupScreen> {
                 children: [
                   const SignupHeader(),
 
-                  UsernameField(
+                  CustomTextField(
+                    labelText: "Username",
                     controller: _usernameController,
                     validator: Validators.validateUsername,
                   ),
                   const SizedBox(height: 30),
 
-                  EmailField(
+                  CustomTextField(
+                    labelText: "Email",
                     controller: _emailController,
+                    keyboardType: TextInputType.emailAddress,
                     validator: Validators.validateEmail,
                   ),
                   const SizedBox(height: 30),
 
-                  PasswordField(
+                  CustomTextField(
+                    labelText: "Password",
                     controller: _passwordController,
+                    isPassword: true,
                     validator: Validators.validatePassword,
+                    bottomWidget: const TermsText(),
                   ),
-                  const SizedBox(height: 20),
-
-                  const TermsText(),
                   const SizedBox(height: 30),
 
                   PrimaryButton(text: "Sign Up", onTap: _handleSignup),
