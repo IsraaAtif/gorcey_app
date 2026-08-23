@@ -2,7 +2,8 @@
 
 | Login Screen | Sign Up Screen | Shop Screen |
 | :---: | :---: | :---: |
-| <img width="452" height="992" alt="Screenshot 2026-08-16 222805" src="https://github.com/user-attachments/assets/3d83672e-42af-4175-9aba-b63ed5e7dfb1" />|<img width="457" height="1006" alt="Screenshot 2026-08-16 225343" src="https://github.com/user-attachments/assets/aa74cc39-ed08-4c28-8187-c5d0b831d433" />|<img width="414" height="903" alt="Screenshot 2026-08-18 212100" src="https://github.com/user-attachments/assets/8380c9d4-2795-4519-907a-60c80eeb553c" />
+| <img width="452" height="992" alt="Screenshot 2026-08-16 222805" src="https://github.com/user-attachments/assets/3d83672e-42af-4175-9aba-b63ed5e7dfb1" />|<img width="457" height="1006" alt="Screenshot 2026-08-16 225343" src="https://github.com/user-attachments/assets/aa74cc39-ed08-4c28-8187-c5d0b831d433" />|<img width="418" height="917" alt="Screenshot 2026-08-21 203535" src="https://github.com/user-attachments/assets/c91485f9-09cb-4e87-8dab-743e3b111bfe" />
+
 
 
  |
@@ -24,6 +25,15 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-## About Application Screens
+## about Application Screens & Features
 
-Implemented Login, Sign Up, and Shop screens featuring form validation, password visibility toggle, custom bottom navigation bar, search bar, and smooth scrolling layout.
+ Authentication Screens (Login & Sign Up)
+ - Custom UI & Branding: Clean layout featuring custom app logo and themed green buttons.
+ - Form Validation: Input handling for email, username, and password fields.
+ - Interactive UI: Password visibility toggle (Show/Hide password) and navigation links between screens.
+
+  Shop Screen
+  - Location & Search: Top bar with user location header and an intuitive search field.
+  - Promo Banner Slider: Dynamic offer banners with page indicator dots.
+  -Product Showcase: Custom product cards displaying image, item details, price, and interactive "Add to Cart" button.
+  -Navigation: Custom Bottom Navigation Bar for smooth app-wide navigation.
