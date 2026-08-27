@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:gorcey_app/widgets/home_search_field.dart';
-import 'package:gorcey_app/widgets/home_slider.dart';
+import 'package:gorcey_app/widgets/home_slider.dart'; 
 import 'package:gorcey_app/widgets/product_section.dart';
 
 class ShopScreen extends StatelessWidget {
@@ -13,17 +13,16 @@ class ShopScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: SingleChildScrollView(
-          physics:  BouncingScrollPhysics(),
+          physics: const BouncingScrollPhysics(),
           child: Padding(
-            padding:  EdgeInsets.symmetric(horizontal: 24.71, vertical: 15),
+            padding: const EdgeInsets.symmetric(horizontal: 24.71, vertical: 15),
             child: Column(
               children: [
-                
                 Center(
                   child: Image.asset("assets/images/carrot.png", width: 30),
                 ),
-                 SizedBox(height: 7.6),
-                 Row(
+                const SizedBox(height: 7.6),
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(Icons.location_on),
@@ -37,18 +36,27 @@ class ShopScreen extends StatelessWidget {
                     ),
                   ],
                 ),
-                 SizedBox(height: 20),
+                const SizedBox(height: 20),
 
+                const HomeSearchField(),
+                const SizedBox(height: 20),
                 
-                 HomeSearchField(),
-                 SizedBox(height: 20),
-                 HomeSlider(),
-                 SizedBox(height: 30),
-                 ProductSection(title: "Exclusive Offer"),
-                 SizedBox(height: 30),
-                 ProductSection(title: "Best Selling"),
-                 SizedBox(height: 30),
-                 ProductSection(title: "Groceries"),
+                
+                const CustomAppSlider(
+                  images: [
+                    'assets/images/vegetable.jpeg',
+                    'assets/images/collection.jpeg',
+                    'assets/images/Friuts.jpeg',
+                  ],
+                  height: 119.0,
+                ),
+                
+                const SizedBox(height: 30),
+                const ProductSection(title: "Exclusive Offer"),
+                const SizedBox(height: 30),
+                const ProductSection(title: "Best Selling"),
+                const SizedBox(height: 30),
+                const ProductSection(title: "Groceries"),
               ],
             ),
           ),

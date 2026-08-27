@@ -90,7 +90,6 @@ class ProductSection extends StatelessWidget {
           ),
           const SizedBox(height: 15),
         ],
-        
         SizedBox(
           height: 220,
           child: ListView.separated(
@@ -127,7 +126,6 @@ class ProductSection extends StatelessWidget {
                   unit: "1kg, Priceg",
                 );
               }
-
               return ProdutItem(
                 price: 4.99,
                 title: "Organic Bananas",

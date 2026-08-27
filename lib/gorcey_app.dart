@@ -1,8 +1,11 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:gorcey_app/screens/account_screen.dart';
 import 'package:gorcey_app/screens/bottom_nev_bar_screen.dart';
 import 'package:gorcey_app/screens/login_screen.dart';
+import 'package:gorcey_app/screens/product_detail_screen.dart';
+import 'package:gorcey_app/screens/shop_screen.dart';
 import 'package:gorcey_app/screens/signup_screen.dart';
 
 class GorceyApp extends StatelessWidget {
@@ -11,7 +14,8 @@ class GorceyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:BottomNevBarScreen (),
+      home:ProductDetailScreen(),
     );
   }
 }
+
