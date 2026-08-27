@@ -4,7 +4,6 @@
 | :---: | :---: | :---: |
 | <img width="452" height="992" alt="Screenshot 2026-08-16 222805" src="https://github.com/user-attachments/assets/3d83672e-42af-4175-9aba-b63ed5e7dfb1" />|<img width="457" height="1006" alt="Screenshot 2026-08-16 225343" src="https://github.com/user-attachments/assets/aa74cc39-ed08-4c28-8187-c5d0b831d433" />|<img width="393" height="836" alt="Screenshot 2026-08-23 195853" src="https://github.com/user-attachments/assets/288c279c-5efb-4c72-af32-368c2406eb64" />
 | Product Detail Screen | Account Screen |
-| :---: | :---: |
 |<img width="350" height="753" alt="Screenshot 2026-08-27 200824" src="https://github.com/user-attachments/assets/9d7ca4a5-4377-4055-9c60-8880e4a87133" />|<img width="351" height="757" alt="Screenshot 2026-08-27 200714" src="https://github.com/user-attachments/assets/5bd0965a-3142-4f9d-801f-533410ae7455" />
 
 
